@@ -192,4 +192,17 @@ def only_keep_largest_circle_in_cluster(clusterVal):
             listOfCircle.append(cluster)
     
     return listOfCircle
+    
 
+if __name__ == "__main__":
+    
+    #SAMPLE DATASET
+    ctuple2 = [(0.5, 0.5, 0.5), (0.7, 0.7, 0.4),(1.5, 1.5, 1.1),(4,4,0.7)]
+    ctuple3 = [(1.5, 1.5, 1.1),(4,4,0.7)]
+    ctuple4 = [(1,3,0.7),(2,3,0.4),(3,3,0.9)]
+    ctuple5 = [(0.5, 0.5, 0.5), (0.7, 0.7, 0.4), (1, 1, 1), (1.5, 1.5, 1.1),(2.9, 3, 1),(4, 4, 0.7),(5,5,0.5),(6,6,1)]
+
+    test_data = [ctuple2,ctuple3,ctuple4,ctuple5]
+    for ctup in test_data:
+        print("INPUT\n",ctup)
+        print("OUTPUT\n",reduce_clusters(ctup))
