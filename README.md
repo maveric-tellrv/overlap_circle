@@ -73,3 +73,31 @@ visual_data]$ python3 visual_cluster_test.py
 Well ths  is corner case which needs clarification if based on the above problem concentric circle should be considered as overlapping cluster
 ![screenshot](https://github.com/maveric-tellrv/overlap_circle/blob/main/images/gitoverlap/Screenshot%20from%202023-08-20%2014-05-12.png)
 
+# Test Run
+```
+[overlap_circle]$ pytest test.py -v -s
+============================================ test session starts ============================================
+platform linux -- Python 3.6.8, pytest-7.0.1, pluggy-1.0.0 -- /home/rovyas/Documents/javascript-objects-prototypes-classes/python/venv/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/rovyas/Documents/javascript-objects-prototypes-classes/pulltest/overlap_circle
+collected 4 items                                                                                           
+
+test.py::test_addition[ctuple0-expected0] INPUT
+ [(0.5, 0.5, 0.5), (0.7, 0.7, 0.4), (1.5, 1.5, 1.1), (4, 4, 0.7)]
+EXPECTED
+ [(4, 4, 0.7), (1.5, 1.5, 1.1)]
+PASSED
+test.py::test_addition[ctuple1-expected1] INPUT
+ [(1.5, 1.5, 1.1), (4, 4, 0.7)]
+EXPECTED
+ [(1.5, 1.5, 1.1), (4, 4, 0.7)]
+PASSED
+test.py::test_addition[ctuple2-expected2] INPUT
+ [(1, 3, 0.7), (2, 3, 0.4), (3, 3, 0.9)]
+EXPECTED
+ [(3, 3, 0.9)]
+PASSED
+test.py::test_addition[ctuple3-expected3] INPUT
+ [(0.5, 0.5, 0.5), (0.7, 0.7, 0.4), (1, 1, 1), (1.5, 1.5, 1.1), (4, 4, 0.7), (2.9, 3, 1)]
+EXPECTED
+```
