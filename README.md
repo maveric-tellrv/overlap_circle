@@ -38,6 +38,20 @@ execute visual_cluster_test.py which is inse visual_data folder
 visual_data]$ python3 visual_cluster_test.py
 ```
 
+# Solution 1
+![screenshot](https://github.com/maveric-tellrv/overlap_circle/blob/main/images/gitoverlap/solution1.png)
+
+# Solution 2
+![screenshot](https://github.com/maveric-tellrv/overlap_circle/blob/main/images/gitoverlap/solution2.png)
+
+# Solution 3
+![screenshot](https://github.com/maveric-tellrv/overlap_circle/blob/main/images/gitoverlap/solution3.png)
+
+# Sample data Set
+![screenshot](https://github.com/maveric-tellrv/overlap_circle/blob/main/images/gitoverlap/dataset_sample_4.png)
+# Input1
+![screenshot](https://github.com/maveric-tellrv/overlap_circle/blob/main/images/gitoverlap/Screenshot%20from%202023-08-20%2014-07-36.png)
+
 # Input1
 ![screenshot](https://github.com/maveric-tellrv/overlap_circle/blob/main/images/gitoverlap/Screenshot%20from%202023-08-20%2014-07-36.png)
 
@@ -56,5 +70,6 @@ visual_data]$ python3 visual_cluster_test.py
 # Output 3-1
 ![screenshot](https://github.com/maveric-tellrv/overlap_circle/blob/main/images/gitoverlap/output3.png)
 # Output 3-2 Concentric circle
+Well ths  is corner case which needs clarification if based on the above problem concentric circle should be considered as overlapping cluster
 ![screenshot](https://github.com/maveric-tellrv/overlap_circle/blob/main/images/gitoverlap/Screenshot%20from%202023-08-20%2014-05-12.png)
 
