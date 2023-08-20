@@ -125,7 +125,8 @@ def checkOverlap(c1,c2):
     
         distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
     
-        if ( r1-r2 <= distance <= r1+r2):
+        # if ( abs(r1-r2) < distance <= r1+r2):
+        if (distance <= r1+r2):
             return True
         else:
             return False
