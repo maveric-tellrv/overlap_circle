@@ -15,7 +15,8 @@
   ctuple4 = [(1,3,0.7),(2,3,0.4),(3,3,0.9)]
 ```
 ```
-python3 test.py 
+  pip install -r requirement.txt
+  python3 test.py 
 [(4, 4, 0.7), (1.5, 1.5, 1.1)]
 [(1.5, 1.5, 1.1), (4, 4, 0.7)]
 [(3, 3, 0.9)]
